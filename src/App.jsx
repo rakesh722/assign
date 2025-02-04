@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="rakesh722.github.io/assign/localhost:5174/" element={<Counter />} />
-        <Route path="rakesh722.github.io/assign/localhost:5174/user-form" element={<UserDataForm />} />
-        <Route path=" rakesh722.github.io/assign/localhost:5174/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Counter />} />
+        <Route path="/user-form" element={<UserDataForm />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
