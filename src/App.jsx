@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="assgin/" element={<Counter />} />
+        <Route path="assign/" element={<Counter />} />
         <Route path="assign/user-form" element={<UserDataForm />} />
         <Route path="assign/dashboard" element={<Dashboard />} />
       </Routes>
