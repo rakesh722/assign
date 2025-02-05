@@ -8,9 +8,9 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="assign/" element={<Counter />} />
-        <Route path="assign/user-form" element={<UserDataForm />} />
-        <Route path="assign/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Counter />} />
+        <Route path="/user-form" element={<UserDataForm />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </HashRouter>
   );
