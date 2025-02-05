@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter , Routes, Route } from 'react-router-dom';
 import Counter from './components/Counter.jsx';
 import UserDataForm from './components/UserDataForm.jsx';
 import Dashboard from './components/Dashboard.jsx';
