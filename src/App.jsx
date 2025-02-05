@@ -6,13 +6,13 @@ import Dashboard from './components/Dashboard.jsx';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/assign/" element={<Counter />} />
         <Route path="/assign//user-form" element={<UserDataForm />} />
         <Route path="/assign//dashboard" element={<Dashboard />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
